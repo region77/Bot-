@@ -13,7 +13,7 @@ let keywords = ["гобой", "саксофон", "как звучит флей�
 
 let button = document.getElementsByClassName('button mini-suggest__button')[0];
 let links = document.links;
-let keyword = keywords[0];
+let keyword = keywords[getRandom(0, keywords.length)];
 
 if(button !== undefined){
     document.getElementsByName('text')[0].value = keyword;
