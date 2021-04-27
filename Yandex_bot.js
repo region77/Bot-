@@ -10,8 +10,7 @@
 // @grant        none
 // ==/UserScript==
 
-let keywords = ["Motul", "факты о моторном
-                ", "Motul оригинал"];
+let keywords = ["Motul", "факты о моторном", "Motul оригинал"];
 
 let button = document.getElementsByClassName('button mini-suggest__button')[0];
 let links = document.links;
